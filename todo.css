@@ -1,0 +1,50 @@
+#todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 , h2{
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(114, 142, 235);
+    box-shadow: 6px 6px 6px 6px #779eecfa;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    align-self: flex-start;
+}
+
+.button1{
+    background-color: green;
+}
+
+.button3{
+    background-color: red;
+}
+
+.button2{
+    background-color: rgb(73, 201, 233);
+}
+
+input{
+    margin: 0.5rem 0;
+ } 
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+
